@@ -1,0 +1,93 @@
+body, html {
+  height: 80%;
+}
+
+.navBar {
+  padding: 1em;
+  background-color: #333332;
+  height: 830px;
+  overflow: hidden;
+  width: 90px;
+  position: fixed;
+  transition: all .5s;
+  border-radius: 10px;
+  z-index: 1;
+}
+.navBar:hover{
+  width:220px
+}
+.menuButton{
+  margin-left: 5px;
+  background: none;
+  border:none;
+  color: white;
+  font-size: large;
+  transition: all .5s;
+  margin-bottom: 1px;
+  overflow: hidden;
+}
+
+.getBottom{
+  bottom:0;
+}
+
+.menuButton:hover{
+  border-radius:1px solid;
+  border-radius: 5px 5px;
+}
+.navLabels{
+  margin-left: 30px;
+  font-size: large;
+  text-align: right;
+}
+.pnavLabels{
+  margin-left: 80px;
+  font-size: large;
+  text-align: right;
+}
+.banner{
+  background-color: #333332;
+  min-height: 300px;
+  width:95%;
+  padding:8em;
+  margin-left: 5.2%;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#homePageContent{
+  padding: 3em;
+  margin-left: 5.2%;
+  margin-top: 5vh;
+  border-radius: 10px;
+  box-shadow: 2px 0px 14px 0px rgba(0,0,0,0.75);
+}
+.feature{
+  border-radius: 10px;
+  height: 200px;
+  width: fit-content;
+  margin-top: 5vh;
+}
+.featureImage{
+  height: 150px;
+  width: 150px;
+}
+.featureContent{
+  left: 20%;
+  bottom: 15vh;
+  position: relative;
+}
+.reversed{
+  height: 150px;
+  width: 150px;
+  left: 125%;
+  position: relative
+}
+#getStarted{
+  border-radius: 10px;
+  border-style: none;
+  background-color: #333332;
+  color: white;
+  height: 50px;
+  width: 150px;
+}

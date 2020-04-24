@@ -1,0 +1,18 @@
+pseudo-forms/node_modules
+
+# testing
+pseudo-forms/coverage
+
+# production
+pseudo-forms/build
+
+# misc
+pseudo-forms/.DS_Store
+pseudo-forms/.env.local
+pseudo-forms/.env.development.local
+pseudo-forms/.env.test.local
+pseudo-forms/.env.production.local
+
+pseudo-forms/npm-debug.log*
+pseudo-forms/yarn-debug.log*
+pseudo-forms/yarn-error.log*

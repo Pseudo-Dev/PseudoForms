@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PseudoForms</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static "homePage/homePageDesign.css" %}">
+      
+
+  <script src="https://kit.fontawesome.com/0467bd4fc9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <center><h1>PseudoForms<br><h5>A comprehensive data analytics platform.</h5></center></h1>
+    <a href="/logoutUser/">
+      <div id="userArea">
+        <div id = "wrapper">
+        <h5>
+          <i class="fas fa-user fa-2x"></i> {{ user }}!
+          <br><br>
+          <center><div id="logout">Logout</div></center></a>
+        </h5>
+      </div>
+    </div>
+  </a>
+  <center>
+    <div id="create">
+      <center><h1><a href='/myforms/create/'>Create Form</a></h1></center>
+    </div>
+    <div id="viewform">
+      <center><h1><a href='/myforms'>My Forms</a></h1></center>
+    </div></center>
+</body>
+</html>

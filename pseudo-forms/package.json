@@ -1,0 +1,60 @@
+{
+  "name": "pseudo-forms",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "@material-ui/core": "^4.7.0",
+    "@types/react-addons-css-transition-group": "^15.0.5",
+    "@types/react-transition-group": "^4.2.3",
+    "aphrodite": "^2.4.0",
+    "bootstrap": "^4.3.1",
+    "floating-label-react": "^1.0.0",
+    "jquery": "^3.4.1",
+    "radium": "^0.26.0",
+    "react": "^16.12.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-animations": "^1.0.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-cookies": "^0.1.1",
+    "react-dom": "^16.12.0",
+    "react-excel-workbook": "0.0.4",
+    "react-floating-label-input": "^4.2.1",
+    "react-native-floating-label-text-input": "^0.1.5",
+    "react-redux": "^7.2.0",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-transition-group": "^1.2.1",
+    "react-typed": "^1.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "collect": "react-scripts build && npm run build-rename && npm run collectstatic",
+    "build-rename": "./renameAndCopy.sh",
+    "collectstatic": "python ../manage.py collectstatic --no-input"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
